@@ -6,8 +6,8 @@
     color: black;
     padding-bottom: 5px;
     width: 250px;
-    margin-right: 5px;
-    margin-top: 5px;
+    
+    margin: 0 auto;
 }
 
 .productImg {
@@ -25,7 +25,7 @@
     flex-direction: row;
 }
 
-.buttonMinus {
+.buttonSubstraction {
     cursor: pointer;
     background-color: transparent;
     border: 1px solid black;
@@ -34,8 +34,8 @@
     width: 30px;
 }
 
-.buttonMinus:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+.buttonSubstraction:hover {
+    background-color: rgba(131, 48, 48, 0.5);
 }
 
 .countLabel {
@@ -58,5 +58,5 @@
 }
 
 .buttonAdd:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color:  rgba(131, 48, 48, 0.5);;
 }
